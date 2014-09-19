@@ -1,0 +1,36 @@
+.hmode {
+display:none !important;
+}
+.navbar-inner {
+opacity: 0.5;
+transition: opacity 0.5s ease-in-out;
+-webkit-transition: opacity 0.5s ease-in-out;
+}
+.navbar-inner:hover {
+opacity: 1.0;
+}
+.toolbar {
+padding: 10px 250px;
+}
+.CodeMirror {
+    background: rgba(248, 252, 223, 0.49);
+}
+.container {
+margin-left: 30px;
+margin-right: 30px;
+}
+#notebook-container {
+    margin-left: 20%;
+    width: 60%;
+    min-width: 400px;
+}
+div.output_subarea {
+    background: rgba(230, 255, 235, 0.42);
+}
+div.inner_cell {
+    background: rgba(230, 255, 255, 0.42);
+}
+div.input_area {
+margin: 2px;
+border: none;
+}

@@ -1,0 +1,9 @@
+db/
+history-corrupt.sqlite
+history.sqlite
+ipython_config.py
+ipython_nbconvert_config.py
+security/
+# startup/
+# static/
+Mathjax
